@@ -57,18 +57,14 @@ The **Alumni Tracking System** empowers:
 
 ---
 
-## 📂 Repository Structure
-/alumni-tracking-system/
-│
-├── index.html # Landing page
-├── /assets/ # Images, CSS, JS
-├── /php/ # All PHP backend files
-├── /database/ # SQL setup scripts
-├── /includes/ # Connection and auth logic
-├── /admin/ # Admin dashboard and tools
-├── /employer/ # Employer panel
-├── /alumni/ # Alumni user dashboard
-└── README.md # This file
+## 👥 Team Members
+| Name               | Role                      |
+| ------------------ | ------------------------- |
+| Gielyn Fernandez   | Full-Stack Developer / PM |
+| Marvin Alagos      | Documentation Specialist  |
+| Aryne Maglasang    | Documentation Specialist  |
+| Bendict Bautista   | Technical Critic          |
+
 
 ## 📃 License
 This project is developed for educational and institutional use only. All rights reserved © 2025 CvSU Imus Campus.
