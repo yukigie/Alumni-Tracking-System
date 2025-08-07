@@ -1,0 +1,10 @@
+Options -Indexes
+RewriteEngine On
+
+# Exclude Admin folder from the rewrite rule
+RewriteCond %{REQUEST_URI} !^/Admin/
+
+# Redirect other PHP requests to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [L]

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+html,body{
+    background: #15622F;
+    font-family: 'Poppins', sans-serif;
+}
+.home-link a{
+    color: #F2D831;
+    font-size: 16px;
+    position: absolute;
+    text-decoration: underline;
+    left: 20px;
+    top: 10px;
+}
+.container {
+     width: 30%;
+     margin-top: 40px;
+}
+.container img {
+     width: 150px;
+     height: 150px;
+}
+.container h3 {
+     font-weight: 600;
+     color: #fff;
+}
+.container h6 {
+     font-weight: 700;
+     color: #f9f9f9;
+     margin-top: -7px;
+}
+.container .subtext {
+     margin-top: -5px;
+     color: #F2D831;
+}
+.container .subtext1 {
+     color: #f9f9f9;
+}
+.container label {
+     display: block;
+     font-size: 13px;
+}
+.container label .req {
+    color: #fe8686;
+}
+.container .signin-label {
+     color: #fff;
+     font-weight: 500;
+     font-size: 23px;
+     margin-bottom: 10px;
+}
+.container .signin-label1 {
+     margin-top: 20px;
+     font-size: 15px;
+     color: #f9f9f9;
+}
+.container hr {
+     width: 80px;
+     border: 2px solid #F2D831;
+     border-radius: 10%;
+     float: left;
+     position: absolute;
+     margin-top: -5px;
+}
+.container input {
+     border: 1px solid #F2D831;
+     border-radius: 5px;
+     padding: 10px;
+     width: 80%;
+}
+.container input:focus {
+     border: 1px solid green;
+}
+.container .link a {
+     color: #f9f9f9;
+     font-size: 12px;
+     text-decoration: underline;
+     font-weight: 600;
+     float: right;
+     margin-top: -10px;
+}
+.container .button {
+     border-radius: 50px;
+     border-color: transparent;
+     color: darkgreen;
+     font-size: 18px;
+     margin-top: 50px;
+     padding: 15px 20px 40px 15px;
+     text-align: center;
+     background-color: #F2D831;
+     transition: 0.2s;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container .button:hover {
+     background-color: lightgray;
+}
+.container #togglePassword {
+     position: absolute;
+     color: #fff;
+     margin-left: -30px;
+     margin-top: 10px;
+     cursor: pointer;
+}
+
+
+
+
+/*Responsive / Breakpoints*/
+@media(max-width: 1080px) {
+
+    .container{
+        width: 80%;
+        height: 100%;
+    }
+
+}
+
+@media(max-width: 774px) {
+
+    .container {
+        margin-top: 70px;
+    }
+    .container h3 {
+        font-size: 20px;
+    }
+    .container img {
+        width: 100px;
+        height: 100px;
+    }
+    .container h6 {
+        font-size: 12px;
+    }
+    .container .subtext {
+        font-size: 17px;
+    }
+    .container .subtext1 {
+        font-size: 11px;
+    }
+    .container .signin-label {
+        font-size: 17px;
+    }
+    .container .signin-label1 {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    .container hr {
+         width: 65px;
+    }
+    .container .button {
+        font-size: 15px;
+    }
+    .home-link a {
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width: 560px) {
+
+}
+
+@media(max-width: 360px) {
+
+}

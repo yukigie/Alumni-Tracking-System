@@ -1,0 +1,12 @@
+{
+    "name": "vendor/autoload.php",
+    "type": "project",
+    "require": {
+        "phpoffice/phpspreadsheet": "1.29"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendor\\AutoloadPhp\\": "src/"
+        }
+    }
+}
